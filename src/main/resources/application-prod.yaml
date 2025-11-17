@@ -1,6 +1,4 @@
 spring:
   datasource:
     url: ${SPRING_DATASOURCE_URL}
-    username: root
-    password: root
 websiteUrl: https://mystore.com
