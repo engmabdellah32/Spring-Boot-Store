@@ -1,19 +1,31 @@
-# The Ultimate Spring Boot Course
+# Store Management Backend System
 
-This repository contains the starter project for Part 2 of my Spring Boot course:
+A backend RESTful application built using Spring Boot for managing users, products, and orders.
 
-[https://codewithmosh.com/p/spring-boot-building-apis](https://codewithmosh.com/p/spring-boot-building-apis)
+## Tech Stack
+- Java
+- Spring Boot
+- Spring Security (JWT)
+- Spring Data JPA & Hibernate
+- MySQL
 
-## About this Repository 
+## Features
+- User authentication and authorization using JWT
+- Role-based access control
+- Product management (CRUD)
+- Order management
+- DTO-based API design
+- Global exception handling and input validation
 
-This project is based on the final project from Part 1 of the course, but I’ve cleaned it up and removed unnecessary playground code so we can focus on building APIs in Part 2.
+## Architecture
+- Layered architecture (Controller, Service, Repository)
+- Separation of concerns using DTOs
 
-You’ll be cloning this repository and coding along with me as we extend the project.
+## API Testing
+- APIs tested using Postman
 
-To get started, clone the repository to your local machine:
+## How to Run
+1. Clone the repository
+2. Configure database credentials in `application.properties`
+3. Run the application using Spring Boot
 
-```sh
-git clone https://github.com/mosh-hamedani/spring-api-starter
-
-cd spring-api
-```
